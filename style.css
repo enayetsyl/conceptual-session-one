@@ -48,7 +48,7 @@ nav a:hover{
 
 /* banner style */
 .banner-background{
-    background:linear-gradient(45deg, rgb(23, 22, 22), rgb(33, 29, 29));
+    background-image:url(./images/background.png), linear-gradient(45deg, rgb(23, 22, 22), rgb(33, 29, 29));
     height: 100vh;
 
 }
@@ -80,17 +80,26 @@ nav a:hover{
     padding-bottom: 20px;
     font-weight: bold;
 }
-
+.top{
+    margin: 30px;
+}
 .about-us-title{
     text-align: center;
     font-size: 54px;
     font-weight: bold;
+    padding-bottom: 50px;
+}
+.abt-h{
+    padding-bottom: 15px;
+    font-size: 1.5em;
+}
+.about-us-content p{
+    font-size: 18px;
 }
 .about-us-flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
 }
 .about-us-img img{
     height: auto;
@@ -99,10 +108,16 @@ nav a:hover{
 .about-us-img{
     text-align: left;
     width: 50%;
+    padding-left: 150px;
 }
 .about-us-content{
     width: 50%;
+    padding-left: 120px;
+    padding-bottom: 150px;
 
+}
+.about-us-btn{
+    margin-top: 20px;
 }
 
 /* about us style */
@@ -110,7 +125,88 @@ nav a:hover{
 
 
 /* services style */
+.service-back{
+    background-image:url(./images/background.png), linear-gradient(45deg, rgb(23, 22, 22), rgb(33, 29, 29));
+    height: 80vh;
+}
+.services-title{
+    font-size: 54px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
 
-
+.services-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+.box img{
+    height: 60px;
+    padding: 10px;
+}
+.box{
+    text-align: center;
+    height: 270px;
+    width: 200px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 105px gray;
+    margin: 50px;
+    padding: 5px 10px 50px 10px;
+}
+.box-title{
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+.box-btn{
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
 
 /* footer style */
+.foot-back{
+    background-color: black;
+    height: 70vh;
+}
+.foot-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.foot-flex a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
