@@ -184,11 +184,35 @@ nav a:hover{
     text-decoration: none;
     display: block;
     padding: 8px;
+    
+}
+.f1, .f2, .f3, .f4{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.f1 img{
+    width: 150px;
+    padding-bottom: 10px;
+}
+.f1 p{
+    line-height: 30px;
+}
+.f2 h3, .f3 h3{
+    padding-bottom: 30px;
+}
+.f4 h3{
+    padding-bottom: 30px;
 }
 
-
-
-
+.f4 p{
+    padding: 0 0 8px 0;
+    line-height: 30px;
+}
+.foot{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
 
 
 
